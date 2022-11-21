@@ -5,7 +5,7 @@ public class Main {
         Scanner sc=new Scanner(System.in);
 
         int opcion,i, longitud;
-        String palabra=" ",reves= "";
+        String palabra=" ",reves= "",palabra2= " ";
         char letra;
 
 
@@ -35,7 +35,8 @@ public class Main {
                     }
                     System.out.println(reves);
                     break;
-
+                case 3:
+                    System.out.println(palabra+ palabra2);
             }
 
 
