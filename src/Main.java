@@ -5,7 +5,7 @@ public class Main {
         Scanner sc=new Scanner(System.in);
 
         int opcion,i, longitud;
-        String palabra=" ";
+        String palabra=" ",reves= "";
         char letra;
 
 
@@ -28,6 +28,12 @@ public class Main {
             switch (opcion) {
                 case 1:
                     System.out.println(palabra.replace(" ", ""));
+                    break;
+                case 2:
+                    for(i=longitud;i>=0;i--) {
+                        reves+=palabra.charAt(i);
+                    }
+                    System.out.println(reves);
                     break;
 
             }
