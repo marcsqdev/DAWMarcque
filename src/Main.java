@@ -27,9 +27,6 @@ public class Main {
             longitud=palabra.length()-1;
             switch (opcion) {
                 case 1:
-                    for(i=0;i<=longitud;i++) {
-
-                    }
                     System.out.println(palabra.replace(" ", ""));
                     break;
 
