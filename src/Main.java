@@ -43,6 +43,8 @@ public class Main {
                     }
                 case 5:
                     System.out.println(palabra.toUpperCase());
+                case 6:
+                    System.out.println(palabra.toLowerCase());
             }
 
 
