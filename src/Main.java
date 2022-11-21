@@ -37,6 +37,12 @@ public class Main {
                     break;
                 case 3:
                     System.out.println(palabra+ palabra2);
+                case 4:
+                    for(i=0;i<=longitud;i++) {
+
+                    }
+                case 5:
+                    System.out.println(palabra.toUpperCase());
             }
 
 
