@@ -9,7 +9,7 @@ public class Main {
         char letra;
 
 
-        System.out.println("1. Elimina espacios en blanco");
+        System.out.println("1. Suprime espacios en blanco");
         System.out.println("2. Invierte Cadena");
         System.out.println("3. Concatena dos cadenas");
         System.out.println("4. Busca una subcadena");
