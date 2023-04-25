@@ -18,12 +18,20 @@ public class libros extends JFrame{
 	private String titulo;
 	private String ISBN;
 	private String autor;
-	private ArrayList[] listalibros;
+	private int numPaginas;
+	private String tematica;
+	private String formato;
+	private String editorial;
+	private ArrayList <libros> listalibros;
 	
-	public libros(String titulo,String ISBN, String autor) {
+	public libros(String titulo,String ISBN, String autor,int numPaginas, String tematica,String formato, String editorial) {
 		this.titulo=titulo;
 		this.ISBN=ISBN;
 		this.autor=autor;
+		this.numPaginas=numPaginas;
+		this.tematica=tematica;
+		this.formato=formato;
+		this.editorial=editorial;
 	}
 	
 	public String getTitulo() {
@@ -37,9 +45,6 @@ public class libros extends JFrame{
 
 
 	public static void librosGUI(){
-		libros libro=new libros("lo que el viento se llevo","","");
-		
-		
 		JFrame frame= new JFrame();
 		
 		JMenuBar menuBar= new JMenuBar();
