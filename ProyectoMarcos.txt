@@ -1,0 +1,74 @@
+Para este proyecto contamos con un total de 10 ordenadores distribuidos en diferentes espacios en un habitaculo de 150 metros cuadrados. 
+Estos 10 dispositivos estan distribuidos de la siguiente manera 2 ordenadores en la recepción, 4 ordenadores en el departamento de contabilidad, 1 ordenador en el despacho del jefe y los 3 últimos en el departamento de producción.
+
+Dispositivo 1 - Router:
+Dirección IP: 192.168.1.1
+Máscara de subred: 255.255.255.0
+
+Dispositivo 2 - Ordenador/Jefe:
+Dirección IP: 192.168.40.2/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.40.1
+
+Dispositivo 3 - Ordenador/Recepcion:
+Dirección IP: 192.168.20.2/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.20.1
+
+Dispositivo 4 - Ordenador/Recepcion:
+Dirección IP: 192.168.20.3/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.20.1
+
+Dispositivo 5 - Ordenador/Contabilidad:
+Dirección IP: 192.168.30.2/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.30.1
+
+Dispositivo 6 - Ordenador/Contabilidad:
+Dirección IP: 192.168.30.3/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.30.1
+
+Dispositivo 7 - Ordenador/Contabilidad:
+Dirección IP: 192.168.30.4/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.30.1
+
+Dispositivo 8 - Ordenador/Contabilidad:
+Dirección IP: 192.168.30.5/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.30.1
+
+Dispositivo 9 - Ordenador/Produccion:
+Dirección IP: 192.168.10.2/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.10.1
+
+Dispositivo 10 - Ordenador/Produccion:
+Dirección IP: 192.168.10.3/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.10.1
+
+Dispositivo 11 - Ordenador/Produccion:
+Dirección IP: 192.168.10.4/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.10.1
+
+Dispositivo 12 - Impresora/Recepcion:
+Dirección IP: 192.168.20.4/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.20.1
+
+Dispositivo 13 - Impresora/Contabilidad:
+Dirección IP: 192.168.30.6/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.30.1
+
+Dispositivo 14 - Impresora/Produccion:
+Dirección IP: 192.168.10.5/24
+Máscara de subred: 255.255.255.0
+Puerta de enlace: 192.168.10.1
+
+
+Teniendo en cuenta que los diferentes departamentos tienen una funcionalidad se ha procedido a la segmentacion de estos en cuatro subredes mejorando asi la eficiencia y seguridad de la red.
